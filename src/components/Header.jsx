@@ -4,7 +4,7 @@ export default function HeaderComponent() {
     return (
         <Header>
             <HeaderContent>
-                <MyselfImage src="../../public/image/myself.png" />
+                <MyselfImage src="./public/image/myself.png" />
                 <div style={{lineHeight:'0.5',marginTop:'3px'}}>
                     <h2 style={{fontSize:'40px'}}>سلام!</h2><br />
                     <p>من آرین سپهری مهر هستم. 12 ساله از بندر ماهشهر. از سال پنجم</p>
