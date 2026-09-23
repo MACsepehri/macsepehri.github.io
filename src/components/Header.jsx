@@ -1,4 +1,4 @@
-import { Header, HeaderContent, MyselfImage } from '../../public/assets/css/StyledComponents'
+import { Header, HeaderContent, MyselfImage } from '../../public/css/StyledComponents'
 
 export default function HeaderComponent() {
     return (
