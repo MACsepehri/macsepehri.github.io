@@ -15,9 +15,13 @@ export const GlobalStyle = createGlobalStyle`
         --light-border-color: #1b3a56;
     }
     body {
-        background: linear-gradient(to right, #001931, #123250);;
-        overflow-x: hidden;
+        background: linear-gradient(to right, #001931, #123250);
         width: 100%;
+        cursor: default;
+    }
+    body,html {
+        margin: 0;
+        padding: 0;
     }
 `
 
@@ -98,4 +102,28 @@ export const GreenCircle = styled.div`
 export const LevelText = styled.span`
     text-align: left;
     display: inline-block;
+`
+
+export const ContactButton = styled.button`
+    width: 150px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #a5d3ff;
+    color: #a5d3ff;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    margin-left: 20px;
+`
+
+export const EmailIcon = styled.img`
+    max-width: 30px;
+    margin-left: 10px;
+    transform: translateY(10px);
+    filter: brightness(0) saturate(100%) invert(80%) sepia(20%) saturate(1200%) hue-rotate(180deg);
+`
+
+export const ContactSpan = styled.span`
+    transform: translateY(-30px);
+    color: #a5d3ff;
 `
