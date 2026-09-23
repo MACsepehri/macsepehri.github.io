@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from "styled-components"
 export const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: 'IranYekan';
-        src: url('./src/assets/font/IRANYekanX-Light.woff');
+        src: url('./public/assets/font/IRANYekanX-Light.woff');
     }
     * {
         font-family: 'IranYekan';
