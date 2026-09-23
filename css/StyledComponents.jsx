@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: linear-gradient(to right, #001931, #123250);;
         overflow-x: hidden;
+        width: 100%;
     }
 `
 
