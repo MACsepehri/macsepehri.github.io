@@ -1,4 +1,4 @@
-import { Section, SectionContent, FlexBox, Favicon, HeaderDiv } from "../../public/style/StyleComponents";
+import { Section, SectionContent, FlexBox, Favicon, HeaderDiv, ContactLink, EmailIcon } from "../../public/style/StyleComponents";
 
 export default function Header() {
     return (
@@ -15,7 +15,10 @@ export default function Header() {
                             <p>روزانه زبان ها و فریم وورک های جدید یاد میگیرم</p>
                             <p>و پروژه های مختلف میزنم.</p>
                         </div>
-                    </FlexBox>
+                    </FlexBox><br />
+                    <div style={{margin:'auto',textAlign:'center'}}>
+                        <ContactLink href='mailto:macsepehri@gmail.com'><EmailIcon src="files/email.png" alt="EmailPNG" /><span style={{color: '#a8e3ff',marginRight:'10px'}}>ارتباط با من</span></ContactLink>
+                    </div>
                 </HeaderDiv>
             </SectionContent>
         </Section>

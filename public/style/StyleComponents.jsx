@@ -50,8 +50,24 @@ export const HeaderDiv = styled.div`
     padding-left: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-radius: 40px;
+    border-radius: 50px;
     border: 4px solid var(--border-color);
     background: var(--box-color);
     margin: auto;
+`
+export const ContactLink = styled.a`
+    width: 120px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 2px solid #a8e3ff;
+    text-decoration: none;
+    border-radius: 10px;
+    gap: 10px;
+`
+export const EmailIcon = styled.img`
+    max-width: 36px;
+    transition: filter 0.3s;
+    filter: brightness(0) invert(77%) sepia(40%) saturate(500%) hue-rotate(180deg);
+    transform: translateY(10px);
 `
