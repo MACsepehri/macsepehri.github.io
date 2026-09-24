@@ -71,3 +71,18 @@ export const EmailIcon = styled.img`
     filter: brightness(0) invert(77%) sepia(40%) saturate(500%) hue-rotate(180deg);
     transform: translateY(10px);
 `
+export const ProjectBox = styled.div`
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    border: 4px solid var(--border-color);
+    background: var(--box-color);
+`
+export const ProjectImage = styled.img`
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+`
+export const ProjectBoxContent = styled.div`
+    margin-top: 20px;
+`
