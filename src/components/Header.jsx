@@ -9,7 +9,7 @@ export default function Header() {
                         <div>
                             <Favicon src="favicon.png" alt="Favicon" />
                         </div>
-                        <div style={{lineHeight:'0.5',textAlign:'right'}}>
+                        <div className="HeaderContent">
                             <h1>سلام! من آرینم.</h1><br />
                             <p>من آرین سپهری مهر هستم ملقب به MACsepehri هستم.</p>
                             <p>روزانه زبان ها و فریم وورک های جدید یاد میگیرم</p>
