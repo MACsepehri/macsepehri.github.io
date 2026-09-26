@@ -18,7 +18,7 @@ export default function BodyPart1() {
                                     <p>و بک اند با اکسپرس هستش.</p><br /><br />
                                     <FlexBox style={{gap:'15px'}}>
                                         <a href="https://gitlab.chabokan.net/artin231/simorghmessenger" target="_blank">گیتلب (فعال)</a>
-                                        <a href="https://github.com/artin231/simorghmessenger" target="_blank">گیتهاب (غیر فعال)</a>
+                                        <a href="https://github.com/artin231/NakheirMessanger" target="_blank">گیتهاب (غیر فعال)</a>
                                     </FlexBox>
                                 </div>
                             </ProjectBoxContent>
