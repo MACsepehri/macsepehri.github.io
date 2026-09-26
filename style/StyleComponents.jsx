@@ -64,6 +64,9 @@ export const ContactLink = styled.a`
     text-decoration: none;
     border-radius: 10px;
     gap: 10px;
+    &:hover {
+        text-decoration: none;
+    }
 `
 export const EmailIcon = styled.img`
     max-width: 36px;
