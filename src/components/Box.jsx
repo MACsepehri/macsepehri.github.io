@@ -1,4 +1,5 @@
 import { BaseSection, Section, LoginSection, InputBox, SubmitLoginButton } from "../../public/style/StyleComponents";
+import Header from "./Header";
 
 function render(isLogin) {
     if (isLogin===false) {
@@ -19,10 +20,13 @@ function render(isLogin) {
 
 export default function Box({isLogin}) {
     return (
-        <BaseSection>
-            <Section>
-                {render(isLogin)}
-            </Section>
-        </BaseSection>
+        <>
+            <BaseSection>
+                <Section>
+                    <Header />
+                    {render(isLogin)}
+                </Section>
+            </BaseSection>
+        </>
     )
 }

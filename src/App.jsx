@@ -15,6 +15,10 @@ export default function Home() {
         }
     }, []);
 
-    return <Box isLogin={isLogin} />;
+    return (
+        <>
+            <Box isLogin={isLogin} />
+        </>
+    )
 
 }

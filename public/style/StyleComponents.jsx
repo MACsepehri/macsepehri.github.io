@@ -9,6 +9,11 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #002240;
     }
+    a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
 `
 export const BaseSection = styled.div`
     display: flex;
@@ -50,4 +55,17 @@ export const SubmitLoginButton = styled.button`
         color: #041625;
         font-weight: 600;
     }
+`
+export const HeaderBox = styled.header`
+    width: calc(100% - 116px);
+    background: #205e90;
+    position: absolute;
+    right: 20;
+    top: 20;
+    display: flex;
+    flex-wrap: wrap;
+`
+export const Flex = styled.div`
+    display: flex;
+    flex-wrap: wrap;
 `
