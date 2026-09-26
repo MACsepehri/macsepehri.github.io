@@ -1,12 +1,7 @@
-import BodyPart1 from "./components/BodyPart1";
-import Header from "./components/Header";
-import '../public/style/base.css'
-
-export default function App() {
+export default function Home() {
     return (
         <>
-            <Header />
-            <BodyPart1 />
+            
         </>
     )
 }
