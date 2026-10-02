@@ -12,7 +12,7 @@ export default function Contact() {
                             <p>به راحتی میتوانید اینکار را انجام دهید!</p>
                         </LineHeight>
                     </div>
-                    <LineHeight dir="ltr">
+                    <LineHeight dir="rtl">
                         <p>ایمیل : <a style={{color:'#005fd4',textDecoration:'none'}} href="mailto:macsepehri@gmail.com">macsepehri@gmail.com</a></p>
                         <p>آی دی در بله : <a style={{color:'#005fd4',textDecoration:'none'}} href="https://web.bale.ai/@macsepehri" target="_blank">@macsepehri</a></p>
                     </LineHeight>
