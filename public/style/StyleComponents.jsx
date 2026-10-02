@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         background: linear-gradient(to right, white , #e0e0e0);
         font-family: 'IranSans', system-ui, sans-serif;
-        transition: color 200ms ease, background-color 200ms ease; */
+        transition: color 200ms ease, background-color 200ms ease;
     }
     a {
         font-size: 18px;
@@ -26,28 +26,31 @@ export const Box = styled.header`
     min-height: 100vh;
     display: grid;
     place-items: center;
+    padding: 16px 8px;
 `;
 
 export const BoxContent = styled.div`
     width: 100%;
     max-width: 900px;
-    padding: 16px;
+    padding: 8px;
 `;
 
 export const RouteBox = styled.div`
-    padding: 24px;
+    padding: 16px;
     border-radius: 10px;
     border: 2px solid #e0e0e0;
     background: #eee;
     display: flex;
-    flex-wrap: wrap;              /* ← add this */
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 24px;
+    text-align: center;
+    gap: 16px;
 
-    @media (max-width: 600px) {
-        flex-direction: column;
-        text-align: center;
+    @media (max-width: 500px) {
+        padding: 10px;
+        gap: 12px;
+        border-radius: 8px;
     }
 `;
 
@@ -76,4 +79,27 @@ export const Cursor = styled.span`
 export const KnowledgeImage = styled.img`
     max-width: 100px;
     max-height: 100px;
-`
+    display: block;
+
+    @media (max-width: 350px) {
+        max-width: 70px;
+        max-height: 70px;
+    }
+`;
+
+export const KnowledgeDiv = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+`;
+
+export const LineHeight = styled.div`
+    line-height: 0.5;
+
+    @media (max-width: 582px) {
+        line-height: 1.8;
+    }
+`;

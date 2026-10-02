@@ -1,4 +1,4 @@
-import { Box, BoxContent, Cursor, HeaderImage, RouteBox } from "../../public/style/StyleComponents";
+import { Box, BoxContent, Cursor, HeaderImage, LineHeight, RouteBox } from "../../public/style/StyleComponents";
 
 export default function Header() {
     return (
@@ -10,13 +10,13 @@ export default function Header() {
                             سلام، من آرینم
                             <Cursor />
                         </h2>
-                        <div style={{lineHeight:'0.5'}}>
+                        <LineHeight>
                             <p>سلام. من آرین سپهری مهر هستم. برنامه نویسی که خیلی عجیب کد میزنه!</p>
                             <p>علاقه به وب دارم ولی ایده ندارم. زبان مورد علاقم پایتونه چون هم</p>
                             <p>سادست هم خیلی کاربردیه. من کسیم که بی دلیل <span dir="ltr">C++</span> و PHP</p>
                             <p>یاد گرفته به امیدی که یجا استفاده بشه که هنوز نشده.</p>
                             <p>در آخر یه زمانی به کثیف کد زدن معروف بودم و الان به سادیسم اعظم معروفم.</p>
-                        </div>
+                        </LineHeight>
                     </div>
                     <HeaderImage src="favicon.png" alt="آرین" />
                 </RouteBox>

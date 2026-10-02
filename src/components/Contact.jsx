@@ -1,4 +1,4 @@
-import { Box, BoxContent, RouteBox } from "../../public/style/StyleComponents";
+import { Box, BoxContent, LineHeight, RouteBox } from "../../public/style/StyleComponents";
 
 export default function Contact() {
     return (
@@ -7,15 +7,15 @@ export default function Contact() {
                 <RouteBox>
                     <div dir="rtl">
                         <h2>ارتباط با من</h2>
-                        <div style={{lineHeight:'0.5'}}>
+                        <LineHeight>
                             <p>اگر علاقه دارید با سادیسم اعظم در ارتباط باشید</p>
                             <p>به راحتی میتوانید اینکار را انجام دهید!</p>
-                        </div>
+                        </LineHeight>
                     </div>
-                    <div dir="ltr" style={{lineHeight:'0.5'}}>
+                    <LineHeight dir="ltr">
                         <p>ایمیل : <a style={{color:'#005fd4',textDecoration:'none'}} href="mailto:macsepehri@gmail.com">macsepehri@gmail.com</a></p>
                         <p>آی دی در بله : <a style={{color:'#005fd4',textDecoration:'none'}} href="https://web.bale.ai/@macsepehri" target="_blank">@macsepehri</a></p>
-                    </div>
+                    </LineHeight>
                 </RouteBox>
             </BoxContent>
         </Box>
