@@ -47,7 +47,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     gap: 16px;
 
@@ -61,6 +61,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     height: 200px;
     border-radius: 15px;
     object-fit: cover;
+    align-self: center;
 `,Za=Ga`
     0%, 49% { opacity: 1; }
     50%, 100% { opacity: 0; }
@@ -72,26 +73,23 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     vertical-align: -0.1em;
     margin-inline-start: 4px;
     animation: ${Za} 1s step-end infinite;
-`,$a=Ba.img`
-    max-width: 100px;
-    max-height: 100px;
-    display: block;
-
-    @media (max-width: 350px) {
-        max-width: 70px;
-        max-height: 70px;
-    }
-`,eo=Ba.div`
+`,$a=Ba.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
     width: 100%;
+`,eo=Ba.img`
+    flex: 1 1 60px;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 `,to=Ba.div`
     line-height: 0.5;
 
     @media (max-width: 582px) {
         line-height: 1.8;
     }
-`,no=o((e=>{var t=u().__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;e.c=function(e){return t.H.useMemoCache(e)}})),ro=o(((e,t)=>{t.exports=no()})),io=o((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),ao=o(((e,t)=>{t.exports=io()})),oo=ro(),R=ao();function so(){let e=(0,oo.c)(4),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsx)(`h2`,{children:`ارتباط با من`}),e[0]=t):t=e[0];let n;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsxs)(`div`,{dir:`rtl`,children:[t,(0,R.jsxs)(to,{children:[(0,R.jsx)(`p`,{children:`اگر علاقه دارید با سادیسم اعظم در ارتباط باشید`}),(0,R.jsx)(`p`,{children:`به راحتی میتوانید اینکار را انجام دهید!`})]})]}),e[1]=n):n=e[1];let r;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,R.jsxs)(`p`,{children:[`ایمیل : `,(0,R.jsx)(`a`,{style:{color:`#005fd4`,textDecoration:`none`},href:`mailto:macsepehri@gmail.com`,children:`macsepehri@gmail.com`})]}),e[2]=r):r=e[2];let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[n,(0,R.jsxs)(to,{dir:`ltr`,children:[r,(0,R.jsxs)(`p`,{children:[`آی دی در بله : `,(0,R.jsx)(`a`,{style:{color:`#005fd4`,textDecoration:`none`},href:`https://web.bale.ai/@macsepehri`,target:`_blank`,children:`@macsepehri`})]})]})]})})}),e[3]=i):i=e[3],i}function co(){let e=(0,oo.c)(4),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsxs)(`h2`,{children:[`سلام، من آرینم`,(0,R.jsx)(Qa,{})]}),e[0]=t):t=e[0];let n,r;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsx)(`p`,{children:`سلام. من آرین سپهری مهر هستم. برنامه نویسی که خیلی عجیب کد میزنه!`}),r=(0,R.jsx)(`p`,{children:`علاقه به وب دارم ولی ایده ندارم. زبان مورد علاقم پایتونه چون هم`}),e[1]=n,e[2]=r):(n=e[1],r=e[2]);let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[(0,R.jsxs)(`div`,{dir:`rtl`,children:[t,(0,R.jsxs)(to,{children:[n,r,(0,R.jsxs)(`p`,{children:[`سادست هم خیلی کاربردیه. من کسیم که بی دلیل `,(0,R.jsx)(`span`,{dir:`ltr`,children:`C++`}),` و PHP`]}),(0,R.jsx)(`p`,{children:`یاد گرفته به امیدی که یجا استفاده بشه که هنوز نشده.`}),(0,R.jsx)(`p`,{children:`در آخر یه زمانی به کثیف کد زدن معروف بودم و الان به سادیسم اعظم معروفم.`})]})]}),(0,R.jsx)(Xa,{src:`favicon.png`,alt:`آرین`})]})})}),e[3]=i):i=e[3],i}function lo(){let e=(0,oo.c)(6),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsx)(`div`,{dir:`rtl`,children:(0,R.jsx)(`h2`,{children:`دانش من`})}),e[0]=t):t=e[0];let n,r,i,a;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsx)(`div`,{dir:`ltr`,children:(0,R.jsx)(eo,{dir:`ltr`,children:(0,R.jsxs)(`div`,{children:[(0,R.jsx)($a,{src:`image/python.png`,alt:``}),(0,R.jsx)($a,{src:`image/flask.png`,alt:``}),(0,R.jsx)($a,{src:`image/react.png`,alt:``}),(0,R.jsx)($a,{src:`image/nextjs.png`,alt:``}),(0,R.jsx)($a,{src:`image/php.png`,alt:``}),(0,R.jsx)($a,{src:`image/cpp.png`,alt:``})]})})}),r={flexBasis:`100%`,justifyContent:`center`,textAlign:`center`,margin:`auto`},i=(0,R.jsx)(`hr`,{}),a=(0,R.jsx)(`h2`,{children:`تجربه`}),e[1]=n,e[2]=r,e[3]=i,e[4]=a):(n=e[1],r=e[2],i=e[3],a=e[4]);let o;return e[5]===Symbol.for(`react.memo_cache_sentinel`)?(o=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[t,n,(0,R.jsxs)(`div`,{style:r,children:[i,a,(0,R.jsxs)(to,{children:[(0,R.jsx)(`p`,{children:`در ابتدا با فلسک بیشتر پروژه میزدم و اینکارو تا 1 سال ادامه دادم`}),(0,R.jsx)(`p`,{children:`بعدش تصمیم گرفتم مسیر رو تغییر بدم و شروع کردم به یادگیری ریکت`}),(0,R.jsx)(`p`,{children:`و نکست جی اس. سپس چند تا از پروژه های قدیمی مانند سایت شخصی و`}),(0,R.jsx)(`p`,{children:`سایت فروشگاهی و غیره را با ریکت باز سازی کردم ولی در کار کردن با`}),(0,R.jsx)(`p`,{children:`فلسک بیشتر تجربه دارم.`})]})]})]})})}),e[5]=o):o=e[5],o}function uo(){let e=(0,oo.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsxs)(R.Fragment,{children:[(0,R.jsx)(co,{}),(0,R.jsx)(lo,{}),(0,R.jsx)(so,{})]}),e[0]=t):t=e[0],t}(0,Ur.createRoot)(document.getElementById(`root`)).render((0,R.jsxs)(x.StrictMode,{children:[(0,R.jsx)(Ka,{}),(0,R.jsx)(On,{children:(0,R.jsx)(Wt,{children:(0,R.jsx)(Ht,{path:`/`,element:(0,R.jsx)(uo,{})})})})]}));
+`,no=o((e=>{var t=u().__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;e.c=function(e){return t.H.useMemoCache(e)}})),ro=o(((e,t)=>{t.exports=no()})),io=o((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),ao=o(((e,t)=>{t.exports=io()})),oo=ro(),R=ao();function so(){let e=(0,oo.c)(4),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsx)(`h2`,{children:`ارتباط با من`}),e[0]=t):t=e[0];let n;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsxs)(`div`,{dir:`rtl`,children:[t,(0,R.jsxs)(to,{children:[(0,R.jsx)(`p`,{children:`اگر علاقه دارید با سادیسم اعظم در ارتباط باشید`}),(0,R.jsx)(`p`,{children:`به راحتی میتوانید اینکار را انجام دهید!`})]})]}),e[1]=n):n=e[1];let r;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,R.jsxs)(`p`,{children:[`ایمیل : `,(0,R.jsx)(`a`,{style:{color:`#005fd4`,textDecoration:`none`},href:`mailto:macsepehri@gmail.com`,children:`macsepehri@gmail.com`})]}),e[2]=r):r=e[2];let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[n,(0,R.jsxs)(to,{dir:`ltr`,children:[r,(0,R.jsxs)(`p`,{children:[`آی دی در بله : `,(0,R.jsx)(`a`,{style:{color:`#005fd4`,textDecoration:`none`},href:`https://web.bale.ai/@macsepehri`,target:`_blank`,children:`@macsepehri`})]})]})]})})}),e[3]=i):i=e[3],i}function co(){let e=(0,oo.c)(4),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsxs)(`h2`,{children:[`سلام، من آرینم`,(0,R.jsx)(Qa,{})]}),e[0]=t):t=e[0];let n,r;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsx)(`p`,{children:`سلام. من آرین سپهری مهر هستم. برنامه نویسی که خیلی عجیب کد میزنه!`}),r=(0,R.jsx)(`p`,{children:`علاقه به وب دارم ولی ایده ندارم. زبان مورد علاقم پایتونه چون هم`}),e[1]=n,e[2]=r):(n=e[1],r=e[2]);let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[(0,R.jsxs)(`div`,{dir:`rtl`,children:[t,(0,R.jsxs)(to,{children:[n,r,(0,R.jsxs)(`p`,{children:[`سادست هم خیلی کاربردیه. من کسیم که بی دلیل `,(0,R.jsx)(`span`,{dir:`ltr`,children:`C++`}),` و PHP`]}),(0,R.jsx)(`p`,{children:`یاد گرفته به امیدی که یجا استفاده بشه که هنوز نشده.`}),(0,R.jsx)(`p`,{children:`در آخر یه زمانی به کثیف کد زدن معروف بودم و الان به سادیسم اعظم معروفم.`})]})]}),(0,R.jsx)(Xa,{src:`favicon.png`,alt:`آرین`})]})})}),e[3]=i):i=e[3],i}function lo(){let e=(0,oo.c)(6),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsx)(`div`,{dir:`rtl`,style:{width:`100%`,textAlign:`center`},children:(0,R.jsx)(`h2`,{children:`دانش من`})}),e[0]=t):t=e[0];let n,r,i,a;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(n=(0,R.jsxs)($a,{dir:`ltr`,children:[(0,R.jsx)(eo,{src:`image/python.png`,alt:``}),(0,R.jsx)(eo,{src:`image/flask.png`,alt:``}),(0,R.jsx)(eo,{src:`image/react.png`,alt:``}),(0,R.jsx)(eo,{src:`image/nextjs.png`,alt:``}),(0,R.jsx)(eo,{src:`image/php.png`,alt:``}),(0,R.jsx)(eo,{src:`image/cpp.png`,alt:``})]}),r={width:`100%`,textAlign:`center`},i=(0,R.jsx)(`hr`,{}),a=(0,R.jsx)(`h2`,{children:`تجربه`}),e[1]=n,e[2]=r,e[3]=i,e[4]=a):(n=e[1],r=e[2],i=e[3],a=e[4]);let o;return e[5]===Symbol.for(`react.memo_cache_sentinel`)?(o=(0,R.jsx)(qa,{children:(0,R.jsx)(Ja,{children:(0,R.jsxs)(Ya,{children:[t,n,(0,R.jsxs)(`div`,{style:r,children:[i,a,(0,R.jsxs)(to,{children:[(0,R.jsx)(`p`,{children:`در ابتدا با فلسک بیشتر پروژه میزدم و اینکارو تا 1 سال ادامه دادم`}),(0,R.jsx)(`p`,{children:`بعدش تصمیم گرفتم مسیر رو تغییر بدم و شروع کردم به یادگیری ریکت`}),(0,R.jsx)(`p`,{children:`و نکست جی اس. سپس چند تا از پروژه های قدیمی مانند سایت شخصی و`}),(0,R.jsx)(`p`,{children:`سایت فروشگاهی و غیره را با ریکت باز سازی کردم ولی در کار کردن با`}),(0,R.jsx)(`p`,{children:`فلسک بیشتر تجربه دارم.`})]})]})]})})}),e[5]=o):o=e[5],o}function uo(){let e=(0,oo.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,R.jsxs)(R.Fragment,{children:[(0,R.jsx)(co,{}),(0,R.jsx)(lo,{}),(0,R.jsx)(so,{})]}),e[0]=t):t=e[0],t}(0,Ur.createRoot)(document.getElementById(`root`)).render((0,R.jsxs)(x.StrictMode,{children:[(0,R.jsx)(Ka,{}),(0,R.jsx)(On,{children:(0,R.jsx)(Wt,{children:(0,R.jsx)(Ht,{path:`/`,element:(0,R.jsx)(uo,{})})})})]}));

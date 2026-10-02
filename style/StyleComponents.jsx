@@ -43,7 +43,7 @@ export const RouteBox = styled.div`
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     gap: 16px;
 
@@ -59,6 +59,7 @@ export const HeaderImage = styled.img`
     height: 200px;
     border-radius: 15px;
     object-fit: cover;
+    align-self: center;
 `;
 
 const blink = keyframes`
@@ -76,17 +77,6 @@ export const Cursor = styled.span`
     animation: ${blink} 1s step-end infinite;
 `;
 
-export const KnowledgeImage = styled.img`
-    max-width: 100px;
-    max-height: 100px;
-    display: block;
-
-    @media (max-width: 350px) {
-        max-width: 70px;
-        max-height: 70px;
-    }
-`;
-
 export const KnowledgeDiv = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +84,14 @@ export const KnowledgeDiv = styled.div`
     align-items: center;
     gap: 10px;
     width: 100%;
+`;
+
+export const KnowledgeImage = styled.img`
+    flex: 1 1 60px;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 `;
 
 export const LineHeight = styled.div`
