@@ -4,8 +4,10 @@ export default function Header() {
     return (
         <Box>
             <BoxContent>
-                <RouteBox>
-                    <div dir="rtl">
+                <RouteBox style={{ flexDirection: "row-reverse", flexWrap: "wrap", alignItems: "center", justifyContent: "center" }}>
+                    
+
+                    <div dir="rtl" style={{ flex: "1 1 300px", textAlign: "center" }}>
                         <h2>
                             سلام، من آرینم
                             <Cursor />
@@ -18,9 +20,14 @@ export default function Header() {
                             <p>در آخر یه زمانی به کثیف کد زدن معروف بودم و الان به سادیسم اعظم معروفم.</p>
                         </LineHeight>
                     </div>
-                    <HeaderImage src="favicon.png" alt="آرین" />
+                    <HeaderImage 
+                        src="favicon.png" 
+                        alt="آرین" 
+                        style={{ order: -1, flex: "0 0 auto" }} 
+                    />
+
                 </RouteBox>
             </BoxContent>
         </Box>
-)
+    )
 }
