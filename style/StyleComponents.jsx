@@ -1,91 +1,105 @@
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     @font-face {
-        font-family: Vazirmatn;
-        src: url('files/vazir.woff2') format('woff2');
+        font-family: 'IranSans';
+        src: url('font/font.woff') format('woff');
+        font-display: swap;
     }
-    :root {
-        --box-color: #0c2f50;
-        --border-color: #283e54;
-    }
-    * {
-        font-family: Vazirmatn;
-        color: white;
-    }
+    *, *::before, *::after { box-sizing: border-box; }
     body {
-        background-color: #112436;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, white , #e0e0e0);
+        font-family: 'IranSans', system-ui, sans-serif;
+        transition: color 200ms ease, background-color 200ms ease;
     }
-`
+    a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+`;
 
-export const Section = styled.section`
+export const Box = styled.header`
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-`
-export const SectionContent = styled.div`
+    display: grid;
+    place-items: center;
+    padding: 16px 8px;
+`;
+
+export const BoxContent = styled.div`
     width: 100%;
-    max-width: fit-content;
+    max-width: 900px;
+    padding: 8px;
+`;
+
+export const RouteBox = styled.div`
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background: #eee;
     display: flex;
-    justify-content: center;
-`
-export const FlexBox = styled.div`
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+    @media (max-width: 500px) {
+        padding: 10px;
+        gap: 12px;
+        border-radius: 8px;
+    }
+`;
+
+export const HeaderImage = styled.img`
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+`;
+
+const blink = keyframes`
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+`;
+
+export const Cursor = styled.span`
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: currentColor;
+    vertical-align: -0.1em;
+    margin-inline-start: 4px;
+    animation: ${blink} 1s step-end infinite;
+`;
+
+export const KnowledgeImage = styled.img`
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+
+    @media (max-width: 350px) {
+        max-width: 70px;
+        max-height: 70px;
+    }
+`;
+
+export const KnowledgeDiv = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-`
-export const Favicon = styled.img`
-    width: 140px;
-    height: 140px;
-    border-radius: 100%;
-    margin-top: 10px;
-`
-export const HeaderDiv = styled.div`
-    width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 50px;
-    border: 4px solid var(--border-color);
-    background: var(--box-color);
-    margin: auto;
-`
-export const ContactLink = styled.a`
-    width: 120px;
-    padding: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    border: 2px solid #a8e3ff;
-    text-decoration: none;
-    border-radius: 10px;
+    align-items: center;
     gap: 10px;
-    &:hover {
-        text-decoration: none;
+    width: 100%;
+`;
+
+export const LineHeight = styled.div`
+    line-height: 0.5;
+
+    @media (max-width: 582px) {
+        line-height: 1.8;
     }
-`
-export const EmailIcon = styled.img`
-    max-width: 36px;
-    transition: filter 0.3s;
-    filter: brightness(0) invert(77%) sepia(40%) saturate(500%) hue-rotate(180deg);
-    transform: translateY(10px);
-`
-export const ProjectBox = styled.div`
-    width: 400px;
-    height: 500px;
-    border-radius: 30px;
-    border: 4px solid var(--border-color);
-    background: var(--box-color);
-`
-export const ProjectImage = styled.img`
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-`
-export const ProjectBoxContent = styled.div`
-    margin-top: 20px;
-`
+`;
