@@ -17,6 +17,10 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         font-display: swap;
     }
     *, *::before, *::after { box-sizing: border-box; }
+    html {
+        scroll-snap-type: y proximity;
+        scroll-snap-stop: normal;
+    }
     body {
         margin: 0;
         padding: 0;
@@ -35,6 +39,8 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     display: grid;
     place-items: center;
     padding: 16px 8px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
 `,Ja=Ba.div`
     width: 100%;
     max-width: 900px;
