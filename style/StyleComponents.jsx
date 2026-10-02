@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         src: url('font/font.woff') format('woff');
         font-display: swap;
     }
-    *, *::before, *::after { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; font-family: 'IranSans', system-ui, sans-serif; }
     html {
         scroll-snap-type: y proximity;
         scroll-snap-stop: normal;
@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         background: linear-gradient(to right, white , #e0e0e0);
-        font-family: 'IranSans', system-ui, sans-serif;
         transition: color 200ms ease, background-color 200ms ease;
     }
     a {
