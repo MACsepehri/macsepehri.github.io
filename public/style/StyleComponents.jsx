@@ -40,6 +40,7 @@ export const RouteBox = styled.div`
     border: 2px solid #e0e0e0;
     background: #eee;
     display: flex;
+    flex-wrap: wrap;              /* ← add this */
     align-items: center;
     justify-content: space-between;
     gap: 24px;
@@ -71,3 +72,8 @@ export const Cursor = styled.span`
     margin-inline-start: 4px;
     animation: ${blink} 1s step-end infinite;
 `;
+
+export const KnowledgeImage = styled.img`
+    max-width: 100px;
+    max-height: 100px;
+`
