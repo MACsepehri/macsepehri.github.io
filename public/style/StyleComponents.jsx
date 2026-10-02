@@ -21,20 +21,20 @@ export const GlobalStyle = createGlobalStyle`
     a:hover { text-decoration: underline; }
 `;
 
-export const Header = styled.header`
+export const Box = styled.header`
     width: 100%;
     min-height: 100vh;
     display: grid;
     place-items: center;
 `;
 
-export const HeaderContent = styled.div`
+export const BoxContent = styled.div`
     width: 100%;
     max-width: 900px;
     padding: 16px;
 `;
 
-export const HeaderBox = styled.div`
+export const RouteBox = styled.div`
     padding: 24px;
     border-radius: 10px;
     border: 2px solid #e0e0e0;
