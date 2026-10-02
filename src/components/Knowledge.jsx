@@ -5,22 +5,18 @@ export default function Knowledge() {
         <Box>
             <BoxContent>
                 <RouteBox>
-                    <div dir="rtl">
+                    <div dir="rtl" style={{ width: '100%', textAlign: 'center' }}>
                         <h2>دانش من</h2>
                     </div>
-                    <div dir="ltr">
-                        <KnowledgeDiv dir="ltr">
-                            <div>
-                                <KnowledgeImage src="image/python.png" alt="" />
-                                <KnowledgeImage src="image/flask.png" alt="" />
-                                <KnowledgeImage src="image/react.png" alt="" />
-                                <KnowledgeImage src="image/nextjs.png" alt="" />
-                                <KnowledgeImage src="image/php.png" alt="" />
-                                <KnowledgeImage src="image/cpp.png" alt="" />
-                            </div>
-                        </KnowledgeDiv>
-                    </div>
-                    <div style={{ flexBasis: '100%', justifyContent:'center', textAlign:'center', margin:'auto' }}>
+                    <KnowledgeDiv dir="ltr">
+                        <KnowledgeImage src="image/python.png" alt="" />
+                        <KnowledgeImage src="image/flask.png" alt="" />
+                        <KnowledgeImage src="image/react.png" alt="" />
+                        <KnowledgeImage src="image/nextjs.png" alt="" />
+                        <KnowledgeImage src="image/php.png" alt="" />
+                        <KnowledgeImage src="image/cpp.png" alt="" />
+                    </KnowledgeDiv>
+                    <div style={{ width: '100%', textAlign: 'center' }}>
                         <hr />
                         <h2>تجربه</h2>
                         <LineHeight>
