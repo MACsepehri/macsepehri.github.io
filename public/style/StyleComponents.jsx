@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
         font-display: swap;
     }
     *, *::before, *::after { box-sizing: border-box; }
+    html {
+        scroll-snap-type: y proximity;
+        scroll-snap-stop: normal;
+    }
     body {
         margin: 0;
         padding: 0;
@@ -27,6 +31,8 @@ export const Box = styled.header`
     display: grid;
     place-items: center;
     padding: 16px 8px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
 `;
 
 export const BoxContent = styled.div`
