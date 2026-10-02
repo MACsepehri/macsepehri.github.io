@@ -9,7 +9,7 @@ export default function Header() {
 
                     <div dir="rtl" style={{ flex: "1 1 300px", textAlign: "center" }}>
                         <h2>
-                            سلام، من آرینم
+                            سلام، من آرین هستم
                             <Cursor />
                         </h2>
                         <LineHeight>
